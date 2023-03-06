@@ -1,0 +1,89 @@
+{
+  "heading": "Charged Up - 2023 (Pit Scouting)",
+  "logo": "vv196x200.png",
+  "skipTeamSelection": true,
+  "pages": [
+    {
+      "name": "Team",
+      "widgets": [
+        {
+          "name": "Team Number",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "Robot",
+      "widgets": [
+
+        {
+          "name": "Drivetrain",
+          "type": "dropdown",
+          "options": [
+            "West Coast",
+            "Swerve",
+            "Other"
+          ]
+        },
+
+        {
+          "name": "Has Driver Camera",
+          "type": "checkbox"
+        },
+        {
+          "name": "Can Pick Up",
+          "type": "multicheckbox",
+          "options": [
+            "Cones",
+            "Tipped Cones",
+            "Cubes"
+          ]
+
+
+        }
+      ]
+    },
+    {
+      "name": "Match Play",
+      "widgets": [
+
+        {
+          "name": "Primary Role",
+          "type": "dropdown",
+          "options": [
+            "Defender",
+            "Shuttle",
+            "Low-Goal-Scorer",
+            "Mid-Goal-Scorer",
+            "High-Goal-Scorer",
+            "N/A"
+          ]
+        },
+
+        {
+          "name": "Can Score In",
+          "type": "multicheckbox",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "name": "Preferred Pickup Location",
+          "type": "dropdown",
+          "options": [
+            "Ground",
+            "Single Substation",
+            "Double Substation"
+          ]
+        },
+        {
+          "name": "Comments",
+          "type": "textarea",
+          "colspan": 3
+        }
+      ]
+    }
+  ]
+}
