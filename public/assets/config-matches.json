@@ -62,6 +62,7 @@
         },
         {
           "name": "Charging Station",
+          "prefix": "Auto",
           "type": "dropdown",
           "options": [
             "Not Attempted",
@@ -154,11 +155,11 @@
       "name": "Endgame",
       "widgets": [
         {
-          "name": "Parking",
+          "name": "End Location",
           "type": "radio",
           "options": [
-            "Docked+Engaged",
-            "Docked Only",
+            "Engaged",
+            "Docked",
             "Parked",
             "None"
           ],
@@ -169,7 +170,7 @@
           "type": "checkbox"
         },
         {
-          "name": "Robots Docked",
+          "name": "Robots On Charge Station",
           "type": "spinbox",
           "max": 3
         },
