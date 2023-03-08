@@ -29,34 +29,31 @@
           "type": "checkbox"
         },
         {
-          "name": "Co-Op Nodes",
-          "type": "label",
-          "align": "middle",
-          "col": 2
+          "name": "Scored to:",
+          "type": "heading",
+          "col": 1,
+          "colspan": 3,
+          "align": "center"
         },
 
         {
-          "name": "Scored Game Pieces",
-          "type": "togglegrid",
-          "prefix": "Auto",
-          "width": 9,
-          "height": 2,
-          "colors": [
-            "red",
-            "green"
-          ]
+          "name": "Low",
+          "type": "spinbox",
+          "col": 1,
+          "align": "center"
         },
         {
-          "name": "Hybrid Nodes",
-          "type": "togglegrid",
-          "prefix": "Auto",
-          "width": 9,
-          "height": 1,
-          "colors": [
-            "black",
-            "yellow",
-            "purple"
-          ]
+          "name": "Mid",
+          "type": "spinbox",
+          "col": 1,
+          "align": "center"
+        },
+        {
+          "name": "High",
+          "type": "spinbox",
+          "col": 1,
+          "align": "center"
+
         },
         {
           "type": "spacer",
@@ -132,14 +129,6 @@
 
         },
 
-        {
-          "name": "Pieces Scored",
-          "type": "label",
-          "align": "center",
-          "col": 2,
-          "colspan": 3
-        },
-
 
         {
           "name": "Defense Rating",
@@ -170,10 +159,7 @@
           ],
           "default": 3
         },
-        {
-          "name": "Failed Charging Station",
-          "type": "checkbox"
-        },
+
         {
           "name": "Robots Docked",
           "type": "spinbox",
