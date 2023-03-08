@@ -85,8 +85,8 @@
         {
           "name": "Ground",
           "type": "spinbox",
-          "col": 2,
-          "align": "left"
+          "col": 1,
+          "align": "center"
         },
         {
           "name": "Single Substation",
