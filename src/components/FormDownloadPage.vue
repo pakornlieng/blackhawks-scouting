@@ -45,7 +45,7 @@ function clearForm() {
   router.go(0); // Reload the page
 }
 
-function generateQRcode(user_input){
+function generateQRcode(widgets.save()){
 
     document.querySelector(".qr-code").style = "";
     var qrcode = new QRCode(document.querySelector(".qr-code"), {
