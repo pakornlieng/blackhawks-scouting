@@ -59,14 +59,14 @@ function generateQRcode(widgets.save()){
 
     console.log(qrcode);
 
-    let download = document.createElement("button");
-    document.querySelector(".qr-code").appendChild(download);
+    //let download = document.createElement("button");
+    //document.querySelector(".qr-code").appendChild(download);
 
-    let download_link = document.createElement("a");
-    download_link.setAttribute("download", "qr_code_linq.png");
-    download_link.innerText = "Download";
+    //let download_link = document.createElement("a");
+    //download_link.setAttribute("download", "qr_code_linq.png");
+    //download_link.innerText = "Download";
 
-    download.appendChild(download_link);
+   // download.appendChild(download_link);
 
     if(document.querySelector(".qr-code img").getAttribute("src") == null){
         setTimeout(() => {
