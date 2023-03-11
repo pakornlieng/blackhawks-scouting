@@ -15,9 +15,23 @@
         },
         {
 
+          "name": "Field",
+          "type": "picture",
+          "file": "field copy.png",
+          "align": "center"
+
+        },
+        {
           "name": "Starting Position",
-          "type": "positions",
-          "file": "field.png"
+          "type": "dropdown",
+          "options":[
+            "B1",
+            "B2",
+            "B3",
+            "R1",
+            "R2",
+            "R3"
+          ]
         }
       ]
     },
