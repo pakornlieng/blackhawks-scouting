@@ -15,6 +15,18 @@
     {
       "name": "Robot",
       "widgets": [
+        {
+          "name": "Height",
+          "type": "number"
+        },
+        {
+          "name": "Length",
+          "type": "number"
+        },
+        {
+          "name": "Width",
+          "type": "number"
+        },
 
         {
           "name": "Drivetrain",
